@@ -1,0 +1,8 @@
+canvas
+{
+	background-color: black;
+}
+@font-face{
+	font-family: "strike";
+	src: ["./font/strikefighter.ttf"];
+}
