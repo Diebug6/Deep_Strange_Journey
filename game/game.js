@@ -14,10 +14,12 @@ var gameArea =
 		this.interval = setInterval(loop, 10);
 		document.addEventListener("keydown", function(evt) 
 		{
+			evt.preventDefault();
 			keystate[evt.keyCode] = true;
 		});
 		document.addEventListener("keyup", function(evt)
 		{
+			evt.preventDefault();
 			keystate[evt.keyCode] = false; 
 		});
 	}, 
